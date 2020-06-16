@@ -1,0 +1,17 @@
+/* gruboœæ linii wykresu */
+.chart-series-line{
+	-fx-stroke-width: 0.2px;
+}
+
+/* kolory linii wykresu */
+.default-color0.chart-series-line { -fx-stroke: blue; }
+.default-color1.chart-series-line { -fx-stroke: blue; }
+.default-color2.chart-series-line { -fx-stroke: yellow; }
+.default-color3.chart-series-line { -fx-stroke: green; }
+.default-color4.chart-series-line { -fx-stroke: black; }
+
+/* dekoracja punktów - usuniête, aby wykresy by³y czytelniejsze */
+.default-color0.chart-line-symbol, .default-color1.chart-line-symbol, .default-color2.chart-line-symbol, .default-color3.chart-line-symbol, .default-color4.chart-line-symbol { 
+    -fx-background-radius: 0.0px;
+    -fx-padding: 0.0px;
+}
